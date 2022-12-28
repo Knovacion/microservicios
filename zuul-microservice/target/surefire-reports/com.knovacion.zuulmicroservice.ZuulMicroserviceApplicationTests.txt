@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: com.knovacion.zuulmicroservice.ZuulMicroserviceApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.279 s <<< FAILURE! - in com.knovacion.zuulmicroservice.ZuulMicroserviceApplicationTests
+initializationError(com.knovacion.zuulmicroservice.ZuulMicroserviceApplicationTests)  Time elapsed: 0.01 s  <<< ERROR!
+java.lang.Exception: The class com.knovacion.zuulmicroservice.ZuulMicroserviceApplicationTests is not public.
+
+initializationError(com.knovacion.zuulmicroservice.ZuulMicroserviceApplicationTests)  Time elapsed: 0 s  <<< ERROR!
+java.lang.Exception: Test class should have exactly one public constructor
+
+initializationError(com.knovacion.zuulmicroservice.ZuulMicroserviceApplicationTests)  Time elapsed: 0 s  <<< ERROR!
+java.lang.Exception: Method contextLoads() should be public
+
