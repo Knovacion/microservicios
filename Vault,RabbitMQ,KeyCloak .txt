@@ -1,0 +1,21 @@
+#Vault Configuracion
+#CMD EN RUTA VAULT
+#INGRESAR COMANDO
+vault server --dev --dev-root-token-id="00000000-0000-0000-0000-000000000000"
+
+#CMD EN RUTA DE service-configuration
+#INGRESAR COMANDO
+
+vault kv put secret/product-microservice @product-microservice.json
+vault kv put secret/booking-microservice @booking-microservice.json
+
+vault dashboard
+http://127.0.0.1:8200/
+
+#Configuracion RabbitMQ
+#Abrir cmd
+docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3.11-management
+
+#Configuracion KeyCloak
+#Abrir cmd
+docker run -p 9090:8080 -e KEYCLOAK_ADMIN=admin -e KEYCLOAK_ADMIN_PASSWORD=admin quay.io/keycloak/keycloak:20.0.1 start-dev
