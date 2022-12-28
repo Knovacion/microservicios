@@ -1,0 +1,5 @@
+com\knovacion\productmicroservice\controller\CategoryController.class
+com\knovacion\productmicroservice\ProductMicroserviceApplication.class
+com\knovacion\productmicroservice\controller\ProductController.class
+com\knovacion\productmicroservice\entity\ProductEntity.class
+com\knovacion\productmicroservice\repository\ProductRepository.class
